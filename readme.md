@@ -30,9 +30,11 @@ This is the hw04 sample. Please follow the steps below.
 
 2. After reset, the device starts to wait until the user button has been pressed, and then starts to blink the blue led forever.
 
-3. Push your repo to your github. (Use .gitignore to exclude the output files like object files, executable files, or binary files)
+3. Try to define a macro function `READ_BIT(addr, bit)` in reg.h for reading the value of the user button.
 
-4. The TAs will clone your repo, build from your source code, and flash to see the result.
+4. Push your repo to your github. (Use .gitignore to exclude the output files like object files, executable files, or binary files)
+
+5. The TAs will clone your repo, build from your source code, and flash to see the result.
 
 [Lecture 04]: http://www.nc.es.ncku.edu.tw/course/embedded/04/
 
